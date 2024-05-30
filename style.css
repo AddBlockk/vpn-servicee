@@ -1,0 +1,1055 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  color: #2a2b32;
+}
+
+span,
+p {
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #2a2b32;
+}
+
+button {
+  cursor: pointer;
+}
+
+.active {
+  color: #f59a11;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.button__active {
+  background-color: #f59a11;
+  color: white;
+  border-radius: 100000px;
+  border: none;
+  transition: 150ms ease-in-out;
+}
+
+.button__active:hover {
+  background-color: #f59a11a1;
+}
+
+.button__no__active {
+  background-color: transparent;
+  color: #f59a11;
+  border-radius: 100000px;
+  transition: 150ms ease-in-out;
+  border: 1px #f59a11 solid;
+}
+
+.button__no__active:hover {
+  background-color: #f59a11;
+  color: white;
+  border-radius: 100000px;
+  border: 1px #f59a11 solid;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10000px;
+  font-size: 16px;
+}
+
+header ul {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.left-menu {
+  flex-grow: 1;
+  margin-left: 70px;
+}
+
+.button__nav__buy {
+  padding: 10px 24px;
+  font-size: 12px;
+}
+
+/* main */
+
+.main__download__block {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+.galka {
+  position: absolute;
+  left: -17px;
+  top: 5px;
+}
+
+.container__button__main {
+  display: flex;
+  gap: 12px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button__main__buy {
+  padding: 12px 44px;
+}
+
+.button__main__download {
+  padding: 13px 29px;
+  display: flex;
+  justify-content: center;
+}
+
+.button__main__download--block {
+  display: flex;
+  justify-content: center;
+}
+
+.list__download__info {
+  margin-top: 24px;
+}
+
+.list__download__info__item {
+  margin-bottom: 12px;
+  line-height: 24px;
+  position: relative;
+}
+
+.h1__center {
+  text-align: center;
+}
+
+.types__of__devices {
+  margin-top: 130px;
+}
+
+.types__of__devices--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  width: 80px;
+  text-align: center;
+}
+.types__of__devices--item img {
+  max-width: max-content;
+}
+
+.types__of__devices--list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.launching__vpn {
+  background: #f7f7f8;
+  padding: 65px 0;
+}
+
+.launching__vpn--block {
+  background-color: white;
+  max-width: max-content;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #e2e2e4;
+  margin-top: 100px;
+  max-width: 380px;
+}
+
+.number__launching--block {
+  border-bottom: #f59a11 2px solid;
+  max-width: max-content;
+  padding-bottom: 10px;
+}
+
+.number__launching__info {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.launching__vpn__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.launching__info {
+  margin-top: 10px;
+}
+
+.container__button__main__what {
+  margin-top: 50px;
+}
+
+.plus__vpn {
+  margin-top: 100px;
+}
+
+.plus__vpn--block img {
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+}
+
+.plus__vpn__container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.plus__vpn--block {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  gap: 24px;
+  color: #4d4e56;
+}
+
+.plus__vpn--title {
+  font-size: 20px;
+  color: #2a2b32;
+}
+
+.advanced__features {
+  margin-top: 128px;
+}
+
+.advanced__features__item {
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #e2e2e4;
+  max-width: 262px;
+  border-radius: 12px;
+}
+
+.advanced__features__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+  flex-wrap: wrap;
+}
+
+.best__vpn__download {
+  margin-top: 128px;
+}
+
+.best__vpn__download--info {
+  margin-top: 24px;
+}
+
+.best__vpn__download--list {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 0 auto;
+  padding-top: 75px;
+  padding-bottom: 40px;
+  text-align: center;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.best__vpn__download--list .active {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #f59a11;
+}
+
+.best__vpn__download--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  border: 2px solid #c8c9cb;
+  border-radius: 12px;
+  width: 180px;
+  height: 231px;
+  font-weight: 500;
+}
+
+.best__vpn__download--item img {
+  margin-top: 62px;
+}
+
+.best__vpn__download--container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1020px;
+  flex-wrap: wrap;
+}
+
+.button__setup__guides--block {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.button__setup__guides {
+  padding: 12px 28px;
+}
+
+.vpm__sub {
+  display: flex;
+  background: #f1f4ff;
+  gap: 35px;
+  margin-top: 90px;
+  border-radius: 20px;
+}
+
+.vpm__sub__info {
+  margin-top: 32px;
+  margin-left: 64px;
+}
+
+.vpm__sub__info p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.trust {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.trust h1 {
+  max-width: 760px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 64px;
+  background: #151922;
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.to__download {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+  border-bottom: #44474e 1px solid;
+  flex-wrap: wrap;
+}
+
+.to__download p {
+  color: #b1b1b4;
+}
+
+.imgs_download {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgs_download img {
+  width: 100%;
+  max-width: max-content;
+}
+
+.footer__blocks {
+  padding-top: 64px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__item p {
+  color: #b1b1b4;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.footer__item a {
+  color: white;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 235px;
+}
+
+.footer__list li {
+  display: flex;
+  gap: 10px;
+}
+
+.container__footer {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  margin-top: 52px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-copyright p {
+  color: #b1b1b4;
+}
+
+.footer-copyright span {
+  color: #73757a;
+}
+
+.language {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.cans {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cans img {
+  max-width: max-content;
+  width: 100%;
+}
+
+/* main index */
+
+.header__main {
+  background: #e1dddc;
+  background-image: url("./img/main__index.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  margin-top: 30px;
+  padding-top: 165px;
+  padding-bottom: 165px;
+}
+
+.header__main--block {
+  max-width: 564px;
+}
+
+.header__main--block p {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.button__block {
+  display: flex;
+  margin-top: 36px;
+  justify-content: end;
+}
+
+.what__vpn {
+  margin: 64px 0;
+}
+
+.what__vpn h1 {
+  margin-bottom: 16px;
+}
+
+.plus__vpn {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.protect__yourself {
+  font-size: 20px;
+}
+
+.protect__yourself__acitve {
+  border-left: 2px solid #f59a11;
+  padding-left: 26px;
+  margin-top: 16px;
+}
+
+.protect__yourself__no__acitve {
+  border-left: 2px solid #b1b1b4;
+  padding-left: 26px;
+  margin-top: 16px;
+  color: #6c6d75;
+}
+
+.types__of__devices__index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews {
+  display: flex;
+  gap: 70px;
+}
+
+.name {
+  color: #4d4e56;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.position {
+  font-size: 14px;
+  color: #6c6d75;
+}
+
+.reviews__info {
+  color: #4d4e56;
+  margin-top: 16px;
+}
+
+.frequent {
+  background: #f7f7f8;
+  padding: 64px 0;
+}
+
+.frequent__questions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question__items {
+  width: 100%;
+  max-width: 750px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 33px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e2e2e4;
+  cursor: pointer;
+}
+
+/* price */
+
+.plan-block {
+  display: flex;
+  justify-content: center;
+}
+
+.plan {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  border-radius: 10000px;
+  border: #e2e2e4 1px solid;
+  max-width: max-content;
+  padding: 5px;
+}
+
+.button-plan {
+  padding: 12px 30px;
+  cursor: pointer;
+  color: #b1b1b4;
+}
+
+.button-plan p {
+  color: #b1b1b4;
+}
+
+.active-plan {
+  border-radius: 10000px;
+  background-color: #e2e2e4;
+}
+
+.active-plan p {
+  color: #2a2b32;
+}
+
+.type-plan p {
+  border-top: 1px solid #e2e2e4;
+}
+
+.plan-table {
+  display: flex;
+  margin-top: 60px;
+}
+
+.price__ultimate {
+  background: white;
+  border: 1px solid #e2e2e4;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.button__type {
+  padding: 12px 22px;
+}
+
+.type-plan-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.table-container {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr {
+  border: 2px solid #f2f2f2;
+}
+
+.advantages {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.price {
+  font-size: 32px;
+}
+
+.type-table th {
+  text-align: center;
+}
+
+td span {
+  font-size: 16px;
+}
+
+td ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 400;
+}
+
+.button-price {
+  padding: 12px 24px;
+}
+
+.button-price-block div {
+  display: flex;
+  justify-content: center;
+}
+
+.search__vpn__block {
+  background: #f7f7f8;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #e2e2e4;
+  margin-top: 32px;
+}
+
+.search__vpn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__vpn--title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.why-use-vpn {
+  display: flex;
+  gap: 12px;
+  font-weight: 500;
+}
+
+.why-use-vpn img {
+  max-width: max-content;
+}
+/* menu */
+
+.header__container-wrapper_modal {
+  transition: all 1s ease-in-out;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+}
+.header__container-wrapper_modal menu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__container-wrapper_modal ul {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__container-wrapper_modal li {
+  font-family: Arial;
+}
+.header__container-wrapper_modal a {
+  color: #272525;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  position: relative;
+}
+
+.cross {
+  right: 40px;
+  top: 26px;
+  position: absolute;
+}
+
+.cross img {
+  height: auto;
+  width: 32px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+
+.menu-tel {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media (min-width: 1150px) {
+  .header__container-wrapper_but {
+    display: none;
+  }
+}
+
+@media (max-width: 1150px) {
+  .left-menu {
+    display: none;
+  }
+  .right-menu {
+    display: none;
+  }
+  .main__download__block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .launching__vpn__container {
+    justify-content: center;
+  }
+  .plus__vpn__container {
+    justify-content: center;
+  }
+  .advanced__features__container {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .to__download {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .main__download__block {
+    margin-top: 30px;
+  }
+
+  .plus__vpn {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .plus__vpn img {
+    max-width: max-content;
+    width: 100%;
+  }
+  .vpm__sub {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .vpm__sub img {
+    max-width: max-content;
+    width: 100%;
+  }
+  .reviews {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-copyright {
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .types__of__devices--item {
+    justify-content: center;
+  }
+  .launching__vpn--block {
+    margin-top: 30px;
+  }
+  .container__button__main__what {
+    display: flex;
+    justify-content: center;
+  }
+  .plus__vpn__container {
+    gap: 30px;
+  }
+  .vpm__sub__info {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .header__main--block {
+    padding: 0 15px;
+  }
+  .main__download__block {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .plan {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .search__vpn {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .table-container {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .table-container {
+    font-size: 12px;
+  }
+
+  th,
+  td {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .table-container {
+    font-size: 10px;
+  }
+
+  th,
+  td {
+    padding: 2px;
+  }
+}
+tr {
+  padding: 20px 0;
+}
+
+/* Обычные стили для таблицы */
+.table-container {
+  width: 100%;
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.price {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.price span {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Медиа-запросы для таблицы */
+@media screen and (max-width: 768px) {
+  .table-container {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+
+  .price {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .price span {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .table-container {
+    font-size: 12px;
+  }
+
+  th,
+  td {
+    padding: 5px;
+    display: block;
+    text-align: center;
+  }
+
+  tr {
+    display: table-row;
+    padding: 20px 0;
+  }
+
+  th {
+    background-color: transparent;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .plan {
+    border-radius: 12px;
+  }
+
+  .plan-name {
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  .price {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 10px;
+  }
+
+  .price span {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .button-container {
+    padding-top: 10px;
+  }
+
+  .header-table {
+    display: flex;
+    justify-content: center;
+  }
+  .button-price-block div {
+    margin-bottom: 20px;
+  }
+}

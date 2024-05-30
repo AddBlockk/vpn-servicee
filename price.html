@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Цена</title>
+  </head>
+  <body>
+    <div
+      class="header__container-wrapper_modal"
+      style="transform: translate(0px, -100%); display: none">
+      <menu>
+        <div class="cross">
+          <img src="./img/cross.svg" alt="" />
+        </div>
+        <div class="layout">
+          <a href="./index.html">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+          <ul class="menu-tel">
+            <li><a href="./price.html">Цены</a></li>
+            <li><a href="#">Плюсы THOMSONVPN</a></li>
+            <li><a href="./download.html" class="active">Загрузить VPN</a></li>
+            <li><a href="#">Ресурсы</a></li>
+            <li><a href="#">Для бизнеса</a></li>
+            <li><a href="#">Продукты</a></li>
+            <li><a href="#">Bход</a></li>
+            <button class="button__active button__nav__buy">
+              Купить THOMSONVPN
+            </button>
+          </ul>
+        </div>
+      </menu>
+    </div>
+
+    <header>
+      <a href="./index.html">
+        <img src="./img/logo.svg" alt="logo" />
+      </a>
+      <div class="header__container-wrapper_but">
+        <img src="./img/Menu.svg" width="100%" />
+      </div>
+      <ul class="left-menu">
+        <li><a href="./price.html">Цены</a></li>
+        <li><a href="#">Плюсы THOMSONVPN</a></li>
+        <li><a href="./download.html" class="active">Загрузить VPN</a></li>
+        <li><a href="#">Ресурсы</a></li>
+        <li><a href="#">Для бизнеса</a></li>
+      </ul>
+      <ul class="right-menu">
+        <li><a href="#">Продукты</a></li>
+        <li><a href="#">Bход</a></li>
+        <button class="button__active button__nav__buy">
+          Купить THOMSONVPN
+        </button>
+      </ul>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="plan-block">
+          <div class="plan">
+            <div class="button-plan active-plan"><p>План на 2 года</p></div>
+            <div class="button-plan"><p>План на 1 год</p></div>
+            <div class="button-plan"><p>Ежемесячный план</p></div>
+          </div>
+        </div>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr class="header-table">
+                <th>План</th>
+                <th>Цена</th>
+                <th>Функции</th>
+                <th>Действие</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="plan-name">Ultimate</td>
+                <td class="price">500 ₽<span>/мес.</span></td>
+                <td>
+                  <ul>
+                    <li>Безопасный и высокоскоростной VPN</li>
+                    <li>Одновременная защита 10 устройств</li>
+                    <li>Защита от вредоносного ПО</li>
+                    <li>Трекер и блокировщик рекламы</li>
+                    <li>Кроссплатформенный менеджер паролей</li>
+                    <li>Сканер утечки данных (Data Breach Scanner)</li>
+                    <li>1 ТБ зашифрованного облачного хранилища</li>
+                  </ul>
+                </td>
+                <td class="button-price-block">
+                  <div>
+                    <button class="button__no__active button-price">
+                      Получить план Ultimate
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="plan-name">Plus</td>
+                <td class="price">400 ₽<span>/мес.</span></td>
+                <td>
+                  <ul>
+                    <li>Безопасный и высокоскоростной VPN</li>
+                    <li>Одновременная защита 10 устройств</li>
+                    <li>Защита от вредоносного ПО</li>
+                    <li>Трекер и блокировщик рекламы</li>
+                    <li>Кроссплатформенный менеджер паролей</li>
+                    <li>Сканер утечки данных (Data Breach Scanner)</li>
+                    <li>1 ТБ зашифрованного облачного хранилища</li>
+                  </ul>
+                </td>
+                <td class="button-price-block">
+                  <div>
+                    <button class="button__active button-price">
+                      Получить план Plus
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="plan-name">Basic</td>
+                <td class="price">300 ₽<span>/мес.</span></td>
+                <td>
+                  <ul>
+                    <li>Безопасный и высокоскоростной VPN</li>
+                    <li>Одновременная защита 10 устройств</li>
+                  </ul>
+                </td>
+                <td class="button-price-block">
+                  <div>
+                    <button class="button__no__active button-price">
+                      Получить план Basic
+                    </button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="advantages">
+          <p>
+            Преимущества киберзащиты в настоящее время доступны всем клиентам,
+            проживающим в России. THOMSONVPN не является лицензированным
+            производителем страховых услуг. Страховые выплаты по единому полису
+            выдаются. Более подробная информация и исключения из правил
+            приведены в
+            <a href="#">
+              <span class="active">кратком описании преимуществ.</span>
+            </a>
+          </p>
+        </div>
+
+        <div class="search__vpn__block">
+          <p class="search__vpn--title">Ищете VPN-сервис для бизнеса?</p>
+          <div class="search__vpn">
+            <div>
+              <p>
+                Защитите сеть своей компании с помощью нашего специально
+                разработанного решения для поддержания сетевой безопасности.
+              </p>
+              <p>Необходимо не менее 5 лицензий.</p>
+            </div>
+            <button
+              class="button__no__active"
+              style="height: 50px; width: 150px">
+              Подробнее
+            </button>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="advanced__features">
+            <div>
+              <h1 class="h1__center">
+                Устройтесь поудобнее, расслабьтесь и используйте Интернет без
+                тревоги
+              </h1>
+              <div class="advanced__features__container">
+                <div class="advanced__features__item" style="max-width: 360px">
+                  <img src="./img/why-we1.svg" alt="" />
+                  <p class="plus__vpn--title">
+                    <b>Защитите свою конфиденциальность</b>
+                  </p>
+                  <p>
+                    Если вы не используете VPN, рекламодатели и киберпреступники
+                    могут узнать ваш IP- адрес, историю просмотров,
+                    местоположение и многое другое.
+                  </p>
+                  <div class="why-use-vpn">
+                    <img src="./img/plus1.svg" alt="" />
+                    <p>Блокируйте веб-трекеры</p>
+                  </div>
+                  <div class="why-use-vpn">
+                    <img src="./img/plus4.svg" alt="" />
+                    <p>Защитите личную информацию в Интернете</p>
+                  </div>
+                  <div class="why-use-vpn">
+                    <img src="./img/plus3.svg" alt="" />
+                    <p>Поддерживайте конфиденциальность данных</p>
+                  </div>
+                </div>
+                <div class="advanced__features__item" style="max-width: 360px">
+                  <img src="./img/why-we2.svg" alt="" />
+                  <p class="plus__vpn--title">
+                    <b>Обеспечьте свою безопасность в сети</b>
+                  </p>
+                  <p>
+                    Защитите себя от вредоносного ПО, кибератак, опасной рекламы
+                    и других онлайн-угроз с помощью VPN для всех ваших
+                    устройств.
+                  </p>
+                  <div class="why-use-vpn">
+                    <img src="./img/plus5.svg" alt="" />
+                    <p>Блокируйте опасные сайты</p>
+                  </div>
+                  <div class="why-use-vpn">
+                    <img src="./img/plus6.svg" alt="" />
+                    <p>Защитите свой интернет-банкинг</p>
+                  </div>
+                  <div class="why-use-vpn">
+                    <img src="./img/plus7.svg" alt="" />
+                    <p>Сохраняйте безопасность в общедоступных сетях Wi-Fi</p>
+                  </div>
+                </div>
+                <div class="advanced__features__item" style="max-width: 360px">
+                  <img src="./img/why-we3.svg" alt="" />
+                  <p class="plus__vpn--title">
+                    <b>Получайте доступ к контенту за границей</b>
+                  </p>
+                  <p>
+                    Не все сайты доступны во всех странах. С VPN вы в любом
+                    месте получите доступ к контенту и сайтам, которые обычно
+                    используете.
+                  </p>
+                  <div class="why-use-vpn">
+                    <img src="./img/plus8.svg" alt="" />
+                    <p>
+                      Ведите безопасную потоковую передачу во время путешествий
+                    </p>
+                  </div>
+                  <div class="why-use-vpn">
+                    <img src="./img/plus9.svg" alt="" />
+                    <p>Получайте доступ к любимому контенту</p>
+                  </div>
+                  <div class="why-use-vpn">
+                    <img src="./img/plus10.svg" alt="" />
+                    <p>Обходите цензуру в Интернете</p>
+                  </div>
+                </div>
+              </div>
+              <div class="button__main__download--block">
+                <button
+                  href="./download.html"
+                  class="button__main__download button__active"
+                  style="margin-top: 64px">
+                  Купить THOMSONVPN
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="trust">
+          <h1 style="margin-bottom: 20px">
+            Нам доверяют технические эксперты и пользователи
+          </h1>
+
+          <div class="reviews">
+            <div>
+              <img src="./img/photo1.png" alt="" />
+              <p class="reviews__info">
+                NordVPN практически вне конкуренции. Огромный выбор серверов,
+                внушительный функционал, передовые методы обеспечения
+                безопасности, удобные приложения для всех основных платформ.
+              </p>
+              <p class="name">Max Eddy</p>
+              <p class="position">Аналитик ПО, PCMag</p>
+            </div>
+            <div>
+              <img src="./img/photo2.png" alt="" />
+              <p class="reviews__info">
+                Суть в том, что вам не надо беспокоиться о безопасности в
+                Интернете или бояться утечки данных, если у вас есть VPN.
+                Благодаря NordVPN это просто.
+              </p>
+              <p class="name">Tech of Tomorrow</p>
+              <p class="position">Технический эксперт, YouTube</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="frequent">
+        <div class="container">
+          <div class="frequent__questions">
+            <h1>Часто задаваемые вопросы</h1>
+            <div class="question__items">
+              <div class="question">
+                <p>Законно ли использовать THOMSONVPN?</p>
+                <img src="./img/arrow_down.svg" alt="" />
+              </div>
+              <div class="question">
+                <p>Почему за VPN-сервис нужно платить?</p>
+                <img src="./img/arrow_down.svg" alt="" />
+              </div>
+              <div class="question">
+                <p>
+                  Можно ли использовать THOMSONVPN во время путешествий за
+                  границей?
+                </p>
+                <img src="./img/arrow_down.svg" alt="" />
+              </div>
+              <div class="question">
+                <p>Какие устройства поддерживает THOMSONVPN?</p>
+                <img src="./img/arrow_down.svg" alt="" />
+              </div>
+              <div class="question">
+                <p>Как связаться со службой поддержки THOMSONVPN?</p>
+                <img src="./img/arrow_down.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container__footer">
+        <div class="to__download">
+          <p>
+            Скачайте мобильное приложение THOMSONVPN для платформ iOS и Android.
+          </p>
+          <div class="imgs_download">
+            <img src="./img/app-store.svg" alt="" />
+            <img src="./img/google-play.svg" alt="" />
+          </div>
+        </div>
+        <div class="footer__blocks">
+          <div class="footer__item">
+            <p>THOMSONVPN</p>
+            <ul class="footer__list">
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Вакансии</a></li>
+              <li><a href="#">Гарантия возврата средств</a></li>
+              <li><a href="#">VPN-маршрутизаторы</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Скидка для студентов и работников</a></li>
+              <li><a href="#">Пригласить друга</a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <p>VPN-приложения</p>
+            <ul class="footer__list">
+              <li><a href="#">Windows</a></li>
+              <li><a href="#">macOS</a></li>
+              <li><a href="#">Linux</a></li>
+              <li><a href="#">Android</a></li>
+              <li><a href="#">iOS: iPhone/iPad</a></li>
+              <li><a href="#">Chrome</a></li>
+              <li><a href="#">Firefox</a></li>
+              <li><a href="#">Edge</a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <p>Присоединяйтесь</p>
+            <ul class="footer__list">
+              <li><a href="#">Что такое VPN?</a></li>
+              <li><a href="#">Поиск IP</a></li>
+              <li><a href="#">Мой IP-адрес</a></li>
+              <li><a href="#">Социальная ответственность</a></li>
+              <li><a href="#">Центр кибербезопасности</a></li>
+              <li><a href="#">Раздел для прессы</a></li>
+              <li><a href="#">Стать партнёром</a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <p>Помощь</p>
+            <ul class="footer__list">
+              <li><a href="#">Центр поддержки</a></li>
+              <li><a href="#">Инструкции</a></li>
+              <li><a href="#">Часто задаваемые вопросы</a></li>
+              <li><a href="#">Политика конфиденциальности</a></li>
+              <li><a href="#">Условия использования</a></li>
+              <li><a href="#">Свяжитесь с нами</a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <p>Мы в социальных сетях</p>
+            <ul class="footer__list">
+              <li>
+                <img src="./img/facebookFooter.svg" alt="" />
+                <a href="#">Facebook</a>
+              </li>
+              <li>
+                <img src="./img/twitterFooter.svg" alt="" /><a href="#"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <img src="./img/linkedInFooter.svg" alt="" /><a href="#"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <img src="./img/youtubeFooter.svg" alt="" /><a href="#"
+                  >YouTube</a
+                >
+              </li>
+              <li>
+                <img src="./img/instaFooter.svg" alt="" /><a href="#"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <p>Узнайте больше</p>
+            <ul class="footer__list">
+              <li><a href="#">THOMSON Security</a></li>
+              <li><a href="#">THOMSONLayer</a></li>
+              <li><a href="#">THOMSONPass</a></li>
+              <li><a href="#">THOMSONLocker</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>
+            © 2024 THOMSON Security. Все права защищены. <span
+              >support@thomsonvpn.com</span
+            >
+          </p>
+          <div class="cans">
+            <img src="./img/credit-cards.svg" alt="" />
+            <div class="language">
+              <img src="./img/language.svg" alt="" />
+              <p>Русский</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
